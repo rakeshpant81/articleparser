@@ -15,3 +15,4 @@ resource "kubernetes_namespace" "test" {
     name = "ms-test-ns"
   }
 }
+resource "null_resource" "example" {}
