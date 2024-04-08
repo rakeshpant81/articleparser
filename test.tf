@@ -10,7 +10,7 @@ terraform {
 provider "kubernetes" {
   config_path = "~/cloudify-cluster.yaml"
 }
-resource "kubernetes_namespace" "test" {
+resource "kubernetes_namespace" "test1" {
   metadata {
     name = "ms-test-ns"
   }
